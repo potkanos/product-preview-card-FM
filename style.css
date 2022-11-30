@@ -4,7 +4,13 @@
     margin: 0;
 }
 
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
 .container {
+    background-color: white;
+    border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     position: absolute;
@@ -14,25 +20,75 @@
 }
 
 .text {
-    max-width: 350px;
+    width: 250px;
     padding: 30px;
 }
 
 .description {
     font-family: 'Montserrat';
     font-weight: 700;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 20px;
+    margin-right: 10%;
+}
+
+.text * {
+    margin-bottom: 7%;
 }
 
 img {
-    max-width: 350px;
+    width: 300px;
     height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 h3 {
     font-family: 'Montserrat';
     font-weight: 100;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
 }
 
 h2 {
     font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 10%;
+    line-height: 35px;
+}
+
+.name {
+    color: hsl(212, 21%, 14%);
+}
+
+.discounted {
+    color: hsl(158, 36%, 37%);
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+button {
+    font-size: 14px;
+    width: 90%;
+    height: 12%;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 7px;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.icon {
+    width: 20px;
+    height: auto;
+    margin: auto 0;
 }
